@@ -1,0 +1,16 @@
+sqlalchemy==1.4.49
+mage-ai[postgres]==0.9.74
+jsonschema>=4.18.0
+simplejson==3.11.1
+minio
+
+bs4
+selenium
+webdriver_manager
+
+psycopg2-binary
+
+sentence-transformers
+qdrant-client
+pandas
+numpy
