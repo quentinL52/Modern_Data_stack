@@ -39,11 +39,11 @@ MINIO_SECRET_KEY=
 POSTGRES_ACCESS_KEY= 
 POSTGRES_ACCESS_KEY= 
 _______________________________________________________________
+
 docker-compose.yaml
 Dockerfile
 Makefile
-_______________________________________________________________
-
+_________________________________________________________________________________________________________________________
 dans metabase pour la connection postgresql il faut rentrer host.docker.internal pour le nom d'hote.
 
 une fois tout en place il faut simplement faire un make build (le build est un peu long dus a driver pour selenium)
