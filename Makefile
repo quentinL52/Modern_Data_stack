@@ -15,5 +15,5 @@ browse:
 	open http://localhost:6789
 
 create:
-	docker run -it -p 6789:6789 -v C:\Users\quent\OneDrive\Documents\Projets\Data_lake:/home/src mageai/mageai \
+	docker run -it -p 6789:6789 -v $(PWD):/home/src mageai/mageai \
   /app/run_app.sh mage start $(IMAGE_NAME)
